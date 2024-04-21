@@ -1,0 +1,91 @@
+/* Media queries */
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+} 
+
+  /* Navigation Bar */
+
+.navbar{
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.navbar ul li{
+    margin: 0px 10px;
+}
+
+.navbar #contact{
+    display: none;
+}
+
+/* Hero section */
+
+.heroimg{
+    display: none;
+}
+
+/* Services section */
+
+.services::before{
+    display: none;
+}
+
+.services .items{
+    height: 320px;
+}
+
+.items{
+    margin: 10px auto;
+}
+
+/* Awards section */
+
+.awards-section::before{
+    display: none;
+}
+
+.awards{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.awards img{
+    margin: 10px 0px;
+    width: 166px;
+    height: 166px;
+}
+
+/* Partners section */
+
+.partners-section::before{
+    display: none;
+}
+
+.partners{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.partners img{
+    margin: 10px 0px;
+    width: 166px;
+    height: 166px;
+}
+
+/* Form section */
+
+.order::before{
+    display: none;
+}
+
+.order{
+    align-items: flex-start;
+}
